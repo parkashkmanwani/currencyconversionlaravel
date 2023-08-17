@@ -1,4 +1,4 @@
-FROM nginx:1.21
+FROM nginx:1.25.1
 
 COPY ./docker/vhost.conf /etc/nginx/conf.d/default.conf
 
